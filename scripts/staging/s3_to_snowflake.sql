@@ -51,8 +51,8 @@ CREATE OR REPLACE STORAGE INTEGRATION SNOWPARK_INT
     TYPE = EXTERNAL_STAGE
     STORAGE_PROVIDER = 'S3'
     ENABLED = TRUE
-    STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::996434433527:role/snowflakesnowparkrole' -- ARN in AWS
-    STORAGE_ALLOWED_LOCATIONS = ('s3://adh-snowpark-data-bucket/'); -- S3 Url
+    STORAGE_AWS_ROLE_ARN = '<arn>' -- ARN in AWS
+    STORAGE_ALLOWED_LOCATIONS = ('<s3-url>'); -- S3 Url
 
 // Describe the storage integration
 DESC INTEGRATION SNOWPARK_INT;
@@ -60,7 +60,7 @@ DESC INTEGRATION SNOWPARK_INT;
 // Create External Stage
 CREATE STAGE SNOWPARK_DB.STAGING.SNOWPARK_STAGE
 STORAGE_INTEGRATION = SNOWPARK_INT
-URL = 's3://adh-snowpark-data-bucket/';
+URL = '<s3-url>';
 
 // Validate the setup of the stage
 ls @SNOWPARK_DB.STAGING.SNOWPARK_STAGE;
