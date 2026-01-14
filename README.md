@@ -7,4 +7,4 @@ In this project, I am building end to end analytics pipeline for mobile phone sa
 ![Architecture Diagram](images/architecture.png)
 
 ## Real Time Sales Order Analytics Dashboard in Tableau:
-![Tableau Dashboard](images/.png)
+![Tableau Dashboard](images/real_time_tableau_dashboard.png)
