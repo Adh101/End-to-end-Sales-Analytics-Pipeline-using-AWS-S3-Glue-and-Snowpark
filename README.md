@@ -8,5 +8,5 @@ In this project, I am building end to end analytics pipeline for mobile phone sa
 
 ## Real Time Sales Order Analytics Dashboard in Tableau:
 ![Tableau Dashboard](images/real_time_tableau_dashboard.png)
-![Tableau Public Link]([https://public.tableau.com/app/profile/atish.dhamala/viz/LiveSalesOrderAnalyticsDashboardfromSnowflake/Dashboard1#2])
+Live dashboard: [Open in Tableau](https://public.tableau.com/app/profile/atish.dhamala/viz/LiveSalesOrderAnalyticsDashboardfromSnowflake/Dashboard1#2)
 
